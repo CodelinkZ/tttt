@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<title>The Big One</title>
+<head>
+  <style>
+  body{
+    background-image: url(img/bk.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+  }
+
+  a:link{
+    color:white;
+    text-decoration: none;
+  }
+  a:visited{
+    color: white;
+    text-decoration: none;
+  }
+
+  /*Navigation bar*/
+  .nav{
+    opacity: .5;
+    color: white;
+  }
+  .nav > ul{
+    list-style-type: none;
+    display: flex;
+    flex: 3;
+  }
+  .nav li{
+    padding-right: 1em;
+  }
+
+
+  .logo{
+    margin-left: 35%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .box{
+    background-color: white;
+    width: auto;
+    height: 1000px;
+    opacity: .5;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+
+  /*Top grid*/
+  .grid{
+    margin-top: 40px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+  }
+  .grid > article{
+    text-align: center;
+  }
+  .grid > article img{
+    max-width: 40%
+  }
+  .text{
+    padding: 0 20px 20px;
+  }
+  .text > button{
+    background: grey;
+    padding: 10px;
+    width: 50px;
+  }
+
+  /*Further information about the laptop*/
+  .details{
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+  }
+  .details > article{
+
+  }
+  .details > text{
+
+  }
+  p{
+    font-size: 18px;
+  }
+  h1{
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+
+  </style>
+      <link rel="icon" type="image/png" href="img/dell.png">
+
+        <div class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="compare.html">Compare</a></li>
+            <li><a href="vids.html">Videos</a></li>
+            <li><a href="https://www.argyll.uhi.ac.uk/courses/bsc-hons-computing/#tab-content" target="_blank" >Course</a></li>
+          </ul>
+        </div>
+
+      <div class="logo">
+        <img src="https://fontmeme.com/permalink/181013/66700eed90fcfd5e888149e945cd0c7a.png">
+      </div>
+
+    </head>
+
+    <body>
+
+      <!--Top grid-->
+      <div class="box">
+        <main class="grid">
+          <article>
+            <img src="img/grid/battery.png">
+            <div class="text">
+            <h3>Battery</h3>
+            <p>Plenty juice to last the whole day. </p>
+          </div>
+        </article>
+
+            <article>
+              <img src="img/grid/cpu.png">
+              <div class="text">
+              <h3>i7 processor</h3>
+              <p>2.2 - 4.1 GHz</p>
+
+            </div>
+          </article>
+
+            <article>
+              <img src="img/grid/hdd.png">
+              <div class="text">
+              <h3>SSD</h3>
+              <p>512 GB</p>
+            </div>
+          </article>
+
+            <article>
+              <img src="img/grid/ram.png">
+              <div class="text">
+              <h3>RAM</h3>
+              <p>16 GB DDR4</p>
+            </div>
+          </article>
+
+            <article>
+              <img src="img/grid/feather.png">
+              <div class="text">
+              <h3>Thin and Light</h3>
+              <p>11-17mm think and weighing 1.8Kg</p>
+            </div>
+          </article>
+
+            <article>
+              <img src="img/grid/nvidia.png">
+              <div class="text">
+              <h3>Nvidia Graphics</h3>
+              <p>GTX 1050Ti 4 GB</p>
+            </div>
+          </article>
+
+        </main>
+        <div class="details">
+          <div class="text">
+            <article>
+              <h1>What I want to achieve!</h1>
+              <p>I want to go to college in January/Febuary to start avalible modules in the computing HNC course, (I won't be able to begin the full course as it is semester 2 at the moment. I can start the full course in September), with the view of furthering my education in the field.
+                My goal is to achieve a high level of learning about cyber security, networking and ethical hacking. </p>
+                <p></p>
+              <h1>Why I need this laptop!</h1>
+              <p>I need the beefy specs because I will be running up to 2 virtual machines on this laptop. I am new to the Linux distros and need to be able to gather information and put it into practice in parallel, at the moment I aim limited to a dual boot with my low spec processor and 8 GB of ram therefore forced to use two computers. As I can't carry 2 laptops around that need charged every hour I feel this is essential.
+</p>
+
+            </article>
+
+
+        </div>
+
+
+    </body>
